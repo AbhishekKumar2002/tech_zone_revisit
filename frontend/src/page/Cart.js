@@ -18,7 +18,7 @@ const Cart = () => {
 
   const handlePayment = async () => {
     const res = await fetch(
-      `${process.env.REACT_APP_SERVER_DOMAIN}/checkout-payment`,
+      `${process.env.REACT_APP_SERVER_DOMAIN}checkout-payment`,
       {
         method: "POST",
         headers: {
