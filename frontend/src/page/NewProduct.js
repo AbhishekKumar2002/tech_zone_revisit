@@ -62,7 +62,7 @@ const NewProduct = () => {
           // console.log(process.env.REACT_NEW_PASS)
 
         const fetchData = await fetch(
-          `${process.env.REACT_APP_SERVER_DOMAIN}/uploadProduct`,
+          `${process.env.REACT_APP_SERVER_DOMAIN}uploadProduct`,
           {
             method: "POST",
             headers: {
